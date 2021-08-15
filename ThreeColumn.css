@@ -86,24 +86,41 @@ p {
     height: 40px;
     width: 120px;
     border-radius: 20px;
-    border: hsl(31, 77%, 52%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.lm1:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%); 
 }
 
 .lm2 {
-    color: hsl(179, 100%, 13%);
-    height: 40px;
-    width: 120px;
-    border-radius: 20px;
-    border: hsl(179, 100%, 13%);
-}
-
-.lm3 {
-    font-size: 12px;
     color: hsl(184, 100%, 22%);
     height: 40px;
     width: 120px;
     border-radius: 20px;
-    border: hsl(184, 100%, 22%);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+
+.lm2:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%); 
+}
+
+.lm3 {
+    font-size: 12px;
+    color: hsl(179, 100%, 13%);
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+
+.lm3:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%); 
 }
 
 .button1 {
